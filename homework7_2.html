@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework7_2</title>
+</head>
+
+<body>
+    <p >
+        1. อ่าน JSON จาก API https://disease.sh/v3/covid-19/countries ด้วย Axios เพื่อนำ json 
+         มาเป็นข้อมูลตั้งต้นเก็บไว้ในตัวแปรชื่อ allCovidData ในรูปแบบของ Array of Object <br>
+        3. จงใช้ตัวแปร allCovidData ในการหาผลรวมของ todayRecovered ทั่วโลก เพื่อหาว่ามีกี่คนที่หายจาก Covid วันนี้แล้ว
+        console.log ค่าออกมา (ตรวจสอบความถูกต้องได้ที่ API https://disease.sh/v3/covid-19/all
+        ว่ายอดรวมทั่วโลกมีค่าเป็นเท่าไร) <br>
+        4. จงใช้ตัวแปร allCovidData ในการหาว่าวันนี้มีประเทศใดบ้างที่มี todayDeaths หรือมีคนตายน้อยกว่า 10
+        คนและมีจำนวนประชากร (population) มากกว่าร้อยล้านคน (100000000) โดย console.log ค่าออกมาในรูปของ Array
+        ตัวอย่างผลลัพธ์ เช่น
+        ['Bangladesh', 'Brazil', 'China', 'Egypt', 'Ethiopia', 'India', 'Nigeria', 'Pakistan']
+        เงื่อนไข : ห้ามใช้ loop for, while ในโจทย์ข้อนี้เด็ดขาด ใช้ได้แค่ map, reduce, filter เท่านั้น
+        สร้างไฟล์ชื่อ homework7_2.js, homework7_2.html
+
+    </p>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="homework7_2.js"></script>
+</body>
+
+</html>
