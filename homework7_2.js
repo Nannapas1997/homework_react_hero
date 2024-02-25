@@ -1,3 +1,3 @@
-axios.get('https://disease.sh/v3/covid-19/countries').then(response => {
+axios.get('homework1-4.json').then(response => {
     console.log(response.data);
 });
